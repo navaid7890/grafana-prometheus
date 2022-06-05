@@ -1,0 +1,1 @@
+sudo certbot certonly     --manual     --preferred-challenges=dns     --email youremail     --server https://acme-v02.api.letsencrypt.org/directory     --work-dir=. --config-dir=. --logs-dir=.      --agree-tos     -d domain-name
